@@ -1,20 +1,17 @@
 // Day1CalorieCounting1.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#define _CRTDBG_MAP_ALLOC
+#if defined(__GNUC__) ||defined(__clang__)
+	#pragma GCC diagnostic push
+	#pragma GCC diagnostic ignored "-Wc++98-compat"
+#endif
 
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <vector>
+#include <algorithm>
 #include <chrono>
-
-#ifdef _DEBUG
-#define DBG_NEW new ( _NORMAL_BLOCK , __FILE__ , __LINE__ )
-// Replace _NORMAL_BLOCK with _CLIENT_BLOCK if you want the
-// allocations to be of _CLIENT_BLOCK type
-#else
-#define DBG_NEW new
-#endif
 
 int main()
 {
@@ -23,6 +20,8 @@ int main()
 	auto start = std::chrono::high_resolution_clock::now();
 
 	std::string line;
+	std::vector<int> calories;
+	int elf_carries = 0;
 
     std::ifstream inputfile("input.txt");
 
@@ -30,10 +29,22 @@ int main()
 
 	while (std::getline(inputfile, line))
 	{
-		size_t value = atoi(line.c_str());
-		std::cout << value << "\n";
-
+		if (!line.empty()) {
+			elf_carries += atoi(line.c_str());
+		}
+		else {
+			calories.emplace_back(elf_carries);
+			elf_carries = 0;
+		}
 	}
+
+	for (auto c : calories)
+	{
+		std::cout << c << "\n";
+	}
+
+	std::cout << "Most calories: " << *std::max_element(calories.begin(), calories.end()) << "\n";
+
 	inputfile.close();
 
 	auto stop = std::chrono::high_resolution_clock::now();
