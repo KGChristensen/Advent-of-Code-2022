@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day2RockPaperScissors1", "D
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day2RockPaperScissors2", "Day2RockPaperScissors2\Day2RockPaperScissors2.vcxproj", "{CE84EDEB-61BA-4D61-B764-C2689D44AA71}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day3RucksackReorganization1", "Day3RucksackReorganization1\Day3RucksackReorganization1.vcxproj", "{DF8EC396-7DA2-4F87-8DB7-F4A13D74A92F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{CE84EDEB-61BA-4D61-B764-C2689D44AA71}.Release|x64.Build.0 = Release|x64
 		{CE84EDEB-61BA-4D61-B764-C2689D44AA71}.Release|x86.ActiveCfg = Release|Win32
 		{CE84EDEB-61BA-4D61-B764-C2689D44AA71}.Release|x86.Build.0 = Release|Win32
+		{DF8EC396-7DA2-4F87-8DB7-F4A13D74A92F}.Debug|x64.ActiveCfg = Debug|x64
+		{DF8EC396-7DA2-4F87-8DB7-F4A13D74A92F}.Debug|x64.Build.0 = Debug|x64
+		{DF8EC396-7DA2-4F87-8DB7-F4A13D74A92F}.Debug|x86.ActiveCfg = Debug|Win32
+		{DF8EC396-7DA2-4F87-8DB7-F4A13D74A92F}.Debug|x86.Build.0 = Debug|Win32
+		{DF8EC396-7DA2-4F87-8DB7-F4A13D74A92F}.Release|x64.ActiveCfg = Release|x64
+		{DF8EC396-7DA2-4F87-8DB7-F4A13D74A92F}.Release|x64.Build.0 = Release|x64
+		{DF8EC396-7DA2-4F87-8DB7-F4A13D74A92F}.Release|x86.ActiveCfg = Release|Win32
+		{DF8EC396-7DA2-4F87-8DB7-F4A13D74A92F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
