@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day1CalorieCounting1", "Day
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day1CalorieCounting2", "Day1CalorieCounting2\Day1CalorieCounting2.vcxproj", "{DE2CDFB5-40E3-43BD-93F7-8EBDD60B7283}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day2RockPaperScissors1", "Day2RockPaperScissors1\Day2RockPaperScissors1.vcxproj", "{061332D7-DF8C-4EBC-8F4C-E56EF1E5485E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{DE2CDFB5-40E3-43BD-93F7-8EBDD60B7283}.Release|x64.Build.0 = Release|x64
 		{DE2CDFB5-40E3-43BD-93F7-8EBDD60B7283}.Release|x86.ActiveCfg = Release|Win32
 		{DE2CDFB5-40E3-43BD-93F7-8EBDD60B7283}.Release|x86.Build.0 = Release|Win32
+		{061332D7-DF8C-4EBC-8F4C-E56EF1E5485E}.Debug|x64.ActiveCfg = Debug|x64
+		{061332D7-DF8C-4EBC-8F4C-E56EF1E5485E}.Debug|x64.Build.0 = Debug|x64
+		{061332D7-DF8C-4EBC-8F4C-E56EF1E5485E}.Debug|x86.ActiveCfg = Debug|Win32
+		{061332D7-DF8C-4EBC-8F4C-E56EF1E5485E}.Debug|x86.Build.0 = Debug|Win32
+		{061332D7-DF8C-4EBC-8F4C-E56EF1E5485E}.Release|x64.ActiveCfg = Release|x64
+		{061332D7-DF8C-4EBC-8F4C-E56EF1E5485E}.Release|x64.Build.0 = Release|x64
+		{061332D7-DF8C-4EBC-8F4C-E56EF1E5485E}.Release|x86.ActiveCfg = Release|Win32
+		{061332D7-DF8C-4EBC-8F4C-E56EF1E5485E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
