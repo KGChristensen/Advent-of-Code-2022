@@ -98,8 +98,6 @@ int main()
 		long long int spaceused = directoriestmp.back().second;
 
 		for (auto it = directoriestmp.begin() + 1; it < directoriestmp.end(); it++) {
-			//std::cout << d.second << " : " << d.first << "\n";
-			//std::cout << it->second << " : " << it->first << "\n";
 
 			if ((filesystemsize - spaceused + it->second) > unusedspacerequired) {
 				std::cout << it->second << " : " << it->first << "\n";
