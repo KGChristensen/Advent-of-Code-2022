@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day6TuningTrouble2", "Day6T
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day7NoSpaceLeftOnDevice1", "Day7NoSpaceLeftOnDevice1\Day7NoSpaceLeftOnDevice1.vcxproj", "{EB3216B2-C82E-4549-86F9-580C0E5CA44B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day7NoSpaceLeftOnDevice2", "Day7NoSpaceLeftOnDevice2\Day7NoSpaceLeftOnDevice2.vcxproj", "{42F79ABD-FFF1-4FAC-AA7B-1DE4626F488B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{EB3216B2-C82E-4549-86F9-580C0E5CA44B}.Release|x64.Build.0 = Release|x64
 		{EB3216B2-C82E-4549-86F9-580C0E5CA44B}.Release|x86.ActiveCfg = Release|Win32
 		{EB3216B2-C82E-4549-86F9-580C0E5CA44B}.Release|x86.Build.0 = Release|Win32
+		{42F79ABD-FFF1-4FAC-AA7B-1DE4626F488B}.Debug|x64.ActiveCfg = Debug|x64
+		{42F79ABD-FFF1-4FAC-AA7B-1DE4626F488B}.Debug|x64.Build.0 = Debug|x64
+		{42F79ABD-FFF1-4FAC-AA7B-1DE4626F488B}.Debug|x86.ActiveCfg = Debug|Win32
+		{42F79ABD-FFF1-4FAC-AA7B-1DE4626F488B}.Debug|x86.Build.0 = Debug|Win32
+		{42F79ABD-FFF1-4FAC-AA7B-1DE4626F488B}.Release|x64.ActiveCfg = Release|x64
+		{42F79ABD-FFF1-4FAC-AA7B-1DE4626F488B}.Release|x64.Build.0 = Release|x64
+		{42F79ABD-FFF1-4FAC-AA7B-1DE4626F488B}.Release|x86.ActiveCfg = Release|Win32
+		{42F79ABD-FFF1-4FAC-AA7B-1DE4626F488B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
