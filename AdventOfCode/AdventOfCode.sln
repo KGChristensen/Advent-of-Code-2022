@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day8TreetopTreeHouse1", "Da
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day8TreetopTreeHouse2", "Day8TreetopTreeHouse2\Day8TreetopTreeHouse2.vcxproj", "{FC08936E-7A1D-442E-820F-A6C9D63F4D20}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day9RopeBridge1", "Day9RopeBridge1\Day9RopeBridge1.vcxproj", "{0A368531-7A04-480F-8041-0CC4A5759D0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{FC08936E-7A1D-442E-820F-A6C9D63F4D20}.Release|x64.Build.0 = Release|x64
 		{FC08936E-7A1D-442E-820F-A6C9D63F4D20}.Release|x86.ActiveCfg = Release|Win32
 		{FC08936E-7A1D-442E-820F-A6C9D63F4D20}.Release|x86.Build.0 = Release|Win32
+		{0A368531-7A04-480F-8041-0CC4A5759D0C}.Debug|x64.ActiveCfg = Debug|x64
+		{0A368531-7A04-480F-8041-0CC4A5759D0C}.Debug|x64.Build.0 = Debug|x64
+		{0A368531-7A04-480F-8041-0CC4A5759D0C}.Debug|x86.ActiveCfg = Debug|Win32
+		{0A368531-7A04-480F-8041-0CC4A5759D0C}.Debug|x86.Build.0 = Debug|Win32
+		{0A368531-7A04-480F-8041-0CC4A5759D0C}.Release|x64.ActiveCfg = Release|x64
+		{0A368531-7A04-480F-8041-0CC4A5759D0C}.Release|x64.Build.0 = Release|x64
+		{0A368531-7A04-480F-8041-0CC4A5759D0C}.Release|x86.ActiveCfg = Release|Win32
+		{0A368531-7A04-480F-8041-0CC4A5759D0C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
