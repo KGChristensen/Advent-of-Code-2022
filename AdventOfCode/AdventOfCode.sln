@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day9RopeBridge1", "Day9Rope
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day9RopeBridge2", "Day9RopeBridge2\Day9RopeBridge2.vcxproj", "{34E7F561-69A9-4F4E-8E38-D71C5036E8F1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day10Cathode-RayTube1", "Day10Cathode-RayTube1\Day10Cathode-RayTube1.vcxproj", "{9DE97D92-E909-4506-9459-C069670C18D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{34E7F561-69A9-4F4E-8E38-D71C5036E8F1}.Release|x64.Build.0 = Release|x64
 		{34E7F561-69A9-4F4E-8E38-D71C5036E8F1}.Release|x86.ActiveCfg = Release|Win32
 		{34E7F561-69A9-4F4E-8E38-D71C5036E8F1}.Release|x86.Build.0 = Release|Win32
+		{9DE97D92-E909-4506-9459-C069670C18D5}.Debug|x64.ActiveCfg = Debug|x64
+		{9DE97D92-E909-4506-9459-C069670C18D5}.Debug|x64.Build.0 = Debug|x64
+		{9DE97D92-E909-4506-9459-C069670C18D5}.Debug|x86.ActiveCfg = Debug|Win32
+		{9DE97D92-E909-4506-9459-C069670C18D5}.Debug|x86.Build.0 = Debug|Win32
+		{9DE97D92-E909-4506-9459-C069670C18D5}.Release|x64.ActiveCfg = Release|x64
+		{9DE97D92-E909-4506-9459-C069670C18D5}.Release|x64.Build.0 = Release|x64
+		{9DE97D92-E909-4506-9459-C069670C18D5}.Release|x86.ActiveCfg = Release|Win32
+		{9DE97D92-E909-4506-9459-C069670C18D5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

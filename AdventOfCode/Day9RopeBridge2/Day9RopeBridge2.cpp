@@ -19,7 +19,7 @@
 #include <chrono>
 #include <stack>
 
-void printState(int robepositions[10][2]) {
+static void printState(int robepositions[10][2]) {
 	const int width = 26;
 	const int height = 21;
 	const int offsetwidth = 11;
@@ -41,7 +41,7 @@ void printState(int robepositions[10][2]) {
 						print = 'H';
 					}
 					else  {
-						print = r+'0';
+						print = char(r)+'0';
 					}
 				}
 
@@ -64,7 +64,6 @@ int main()
 
 	auto start = std::chrono::high_resolution_clock::now();
 
-	int counter = 0;
 	std::string line;
 	std::set<std::pair<int, int>> visitedpositions;													// coors of (x,y)
 
@@ -78,14 +77,8 @@ int main()
 	{
 		char direction = line[0];
 		int steps = stoi(line.substr(2, line.length() - 2));
-		counter++;
-
-		std::cout << "(" << counter << ") " << line << "\n";
 
 		if (direction == 'R') {																		// Move head right
-
-			if (counter == 30) 
-				std::cout << "hit" << "\n";
 
 			while (steps--) {
 				robepositions[0][0]++;																// First knot (head)
@@ -159,9 +152,6 @@ int main()
 		}
 		else if (direction == 'U') {
 
-			if (counter == 29)
-				std::cout << "hit" << "\n";
-
 			while (steps--) {
 				robepositions[0][1]++;
 
@@ -193,7 +183,7 @@ int main()
 				}
 
 			}
-
+			
 		}
 		else if (direction == 'D') {
 			while (steps--) {
@@ -233,6 +223,8 @@ int main()
 		}
 
 	}
+
+	printState(robepositions);
 
 	std::cout << "Visited positions: " << visitedpositions.size() << "\n";
 
