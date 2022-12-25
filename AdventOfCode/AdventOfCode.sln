@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day10Cathode-RayTube1", "Da
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day10Cathode-RayTube2", "Day10Cathode-RayTube2\Day10Cathode-RayTube2.vcxproj", "{8305A05D-E755-4054-9B37-A5073D84DD11}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day11MonkeyintheMiddle1", "Day11MonkeyintheMiddle1\Day11MonkeyintheMiddle1.vcxproj", "{184E9C83-68CC-474E-8DF8-63861590B24C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -211,6 +213,14 @@ Global
 		{8305A05D-E755-4054-9B37-A5073D84DD11}.Release|x64.Build.0 = Release|x64
 		{8305A05D-E755-4054-9B37-A5073D84DD11}.Release|x86.ActiveCfg = Release|Win32
 		{8305A05D-E755-4054-9B37-A5073D84DD11}.Release|x86.Build.0 = Release|Win32
+		{184E9C83-68CC-474E-8DF8-63861590B24C}.Debug|x64.ActiveCfg = Debug|x64
+		{184E9C83-68CC-474E-8DF8-63861590B24C}.Debug|x64.Build.0 = Debug|x64
+		{184E9C83-68CC-474E-8DF8-63861590B24C}.Debug|x86.ActiveCfg = Debug|Win32
+		{184E9C83-68CC-474E-8DF8-63861590B24C}.Debug|x86.Build.0 = Debug|Win32
+		{184E9C83-68CC-474E-8DF8-63861590B24C}.Release|x64.ActiveCfg = Release|x64
+		{184E9C83-68CC-474E-8DF8-63861590B24C}.Release|x64.Build.0 = Release|x64
+		{184E9C83-68CC-474E-8DF8-63861590B24C}.Release|x86.ActiveCfg = Release|Win32
+		{184E9C83-68CC-474E-8DF8-63861590B24C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
