@@ -20,6 +20,14 @@
 #include <stack>
 
 struct elevationnode {
+
+	//elevationnode() { puts("elevationnode() - Default constructor"); }																						// Default constructor
+	//elevationnode(const elevationnode &) { puts("elevationnode(const elevationnode &) - Copy construction"); }												// Copy construction
+	//elevationnode(elevationnode&&) noexcept { puts("elevationnode(elevationnode&&) - Move construction"); }													// Move construction
+	//~elevationnode() { puts("~elevationnode() - Destructor"); }																								// Destructor
+	//elevationnode &operator=(const elevationnode&) { puts("elevationnode &operator=(const elevationnode &) - Copy assignment operator"); return *this; }	// Copy assignment operator
+	//elevationnode &operator=(elevationnode&&) noexcept { puts("elevationnode &operator=(elevationnode&&) - Move assignment operator"); return *this; }		// Move assignment operator
+
 	char c;
 	int f;
 	int g;
