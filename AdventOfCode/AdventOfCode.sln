@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day12HillClimbingAlgorithm1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day13DistressSignal1", "Day13DistressSignal1\Day13DistressSignal1.vcxproj", "{F2F6C191-D5C6-4403-BA34-BA46FF533AB0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day13DistressSignal2", "Day13DistressSignal2\Day13DistressSignal2.vcxproj", "{5D822496-B10B-4949-ABD5-27F647B370D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -281,6 +283,14 @@ Global
 		{F2F6C191-D5C6-4403-BA34-BA46FF533AB0}.Release|x64.Build.0 = Release|x64
 		{F2F6C191-D5C6-4403-BA34-BA46FF533AB0}.Release|x86.ActiveCfg = Release|Win32
 		{F2F6C191-D5C6-4403-BA34-BA46FF533AB0}.Release|x86.Build.0 = Release|Win32
+		{5D822496-B10B-4949-ABD5-27F647B370D8}.Debug|x64.ActiveCfg = Debug|x64
+		{5D822496-B10B-4949-ABD5-27F647B370D8}.Debug|x64.Build.0 = Debug|x64
+		{5D822496-B10B-4949-ABD5-27F647B370D8}.Debug|x86.ActiveCfg = Debug|Win32
+		{5D822496-B10B-4949-ABD5-27F647B370D8}.Debug|x86.Build.0 = Debug|Win32
+		{5D822496-B10B-4949-ABD5-27F647B370D8}.Release|x64.ActiveCfg = Release|x64
+		{5D822496-B10B-4949-ABD5-27F647B370D8}.Release|x64.Build.0 = Release|x64
+		{5D822496-B10B-4949-ABD5-27F647B370D8}.Release|x86.ActiveCfg = Release|Win32
+		{5D822496-B10B-4949-ABD5-27F647B370D8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
