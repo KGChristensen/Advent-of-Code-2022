@@ -65,6 +65,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day14RegolithReservoir1-opt
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day14RegolithReservoir2-optimized", "Day14RegolithReservoir2-optimized\Day14RegolithReservoir2-optimized.vcxproj", "{90A269C7-A94C-413F-96AA-9F2253CEDC9F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day15BeaconExclusionZone1", "Day15BeaconExclusionZone1\Day15BeaconExclusionZone1.vcxproj", "{67F5689F-60CC-4D78-B716-8222615E7C92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -321,6 +323,14 @@ Global
 		{90A269C7-A94C-413F-96AA-9F2253CEDC9F}.Release|x64.Build.0 = Release|x64
 		{90A269C7-A94C-413F-96AA-9F2253CEDC9F}.Release|x86.ActiveCfg = Release|Win32
 		{90A269C7-A94C-413F-96AA-9F2253CEDC9F}.Release|x86.Build.0 = Release|Win32
+		{67F5689F-60CC-4D78-B716-8222615E7C92}.Debug|x64.ActiveCfg = Debug|x64
+		{67F5689F-60CC-4D78-B716-8222615E7C92}.Debug|x64.Build.0 = Debug|x64
+		{67F5689F-60CC-4D78-B716-8222615E7C92}.Debug|x86.ActiveCfg = Debug|Win32
+		{67F5689F-60CC-4D78-B716-8222615E7C92}.Debug|x86.Build.0 = Debug|Win32
+		{67F5689F-60CC-4D78-B716-8222615E7C92}.Release|x64.ActiveCfg = Release|x64
+		{67F5689F-60CC-4D78-B716-8222615E7C92}.Release|x64.Build.0 = Release|x64
+		{67F5689F-60CC-4D78-B716-8222615E7C92}.Release|x86.ActiveCfg = Release|Win32
+		{67F5689F-60CC-4D78-B716-8222615E7C92}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
