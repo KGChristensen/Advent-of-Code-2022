@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day15BeaconExclusionZone1",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day15BeaconExclusionZone2", "Day15BeaconExclusionZone2\Day15BeaconExclusionZone2.vcxproj", "{169F064C-4449-4CDE-B7F6-17841664F3FF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day16ProboscideaVolcanium1", "Day16ProboscideaVolcanium1\Day16ProboscideaVolcanium1.vcxproj", "{DEA878BD-488B-4831-972C-61F923123F4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -341,6 +343,14 @@ Global
 		{169F064C-4449-4CDE-B7F6-17841664F3FF}.Release|x64.Build.0 = Release|x64
 		{169F064C-4449-4CDE-B7F6-17841664F3FF}.Release|x86.ActiveCfg = Release|Win32
 		{169F064C-4449-4CDE-B7F6-17841664F3FF}.Release|x86.Build.0 = Release|Win32
+		{DEA878BD-488B-4831-972C-61F923123F4D}.Debug|x64.ActiveCfg = Debug|x64
+		{DEA878BD-488B-4831-972C-61F923123F4D}.Debug|x64.Build.0 = Debug|x64
+		{DEA878BD-488B-4831-972C-61F923123F4D}.Debug|x86.ActiveCfg = Debug|Win32
+		{DEA878BD-488B-4831-972C-61F923123F4D}.Debug|x86.Build.0 = Debug|Win32
+		{DEA878BD-488B-4831-972C-61F923123F4D}.Release|x64.ActiveCfg = Release|x64
+		{DEA878BD-488B-4831-972C-61F923123F4D}.Release|x64.Build.0 = Release|x64
+		{DEA878BD-488B-4831-972C-61F923123F4D}.Release|x86.ActiveCfg = Release|Win32
+		{DEA878BD-488B-4831-972C-61F923123F4D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
